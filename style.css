@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'GmarketSansMedium', sans-serif;
+}
+
+/* index.html */
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #0d6efd;
+    height: 65vh;
+    min-height: 500px;
+}
+
+.landing h1 {
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    padding: 6px 0 3px;
+    font-weight: 700;
+    vertical-align: top;
+}
+
+.landing p {
+    margin-bottom: 2px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8eef4;
+    height: 35vh;
+    min-height: 300px;
+}
+
+/* test.html */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #0d6efd;
+    height: 10vh;
+    min-height: 70px;
+}
+
+
+.header h1 {
+    margin: 0;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    padding: 6px 0 3px;
+    font-weight: 700;
+}
+
+.questions .question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #eee;
+    padding: 50px 0;
+}
+
+.question h2 {
+    font-weight: 700;
+}
+
+.question p {
+    text-align: center;
+    width: 80%;
+}
+
+/* result.html */
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.result img {
+    width: 80%;
+    max-width: 300px;
+}
+
+.result p {
+    width: 80%;
+    max-width: 500px;
+}
+
+.share-sns {
+    margin-bottom: 10px;
+}
+
+.kakao-ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 100px;
+}
