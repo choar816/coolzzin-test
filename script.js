@@ -37,13 +37,13 @@ function result() {
 
     // Counter에 따라 다른 결과 페이지로 이동하기
     if (yes_counter == 5)
-        location.href="e4jsl97d.html";
+        location.href="result/e4jsl97d.html";
     else if (yes_counter == 4)
-        location.href="dg0s8dfa.html";
+        location.href="result/dg0s8dfa.html";
     else if (yes_counter >= 2)
-        location.href="cl4odifs7.html";
+        location.href="result/cl4odifs7.html";
     else if (yes_counter == 1)
-        location.href="b2ldsio9.html";
+        location.href="result/b2ldsio9.html";
     else
-        location.href="a8ds7fs9.html";
+        location.href="result/a8ds7fs9.html";
 }
